@@ -25,11 +25,7 @@ public class HttpRequestTest {
     public void addressBookShouldBeEmpty() throws Exception {
         String url = "http://localhost:" + this.port + "/addressbook";
         System.out.println(this.restTemplate.getForObject(url, String.class));
-//        assertThat(this.restTemplate.getForObject(url, String.class));
     }
 
-    public void addNewBuddyShouleBeOne() throws Exception {
-
-    }
 
 }
