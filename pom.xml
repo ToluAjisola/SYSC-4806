@@ -94,7 +94,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>main.Application</mainClass>
+                            <mainClass>book.Application</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
